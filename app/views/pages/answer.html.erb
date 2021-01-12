@@ -1,29 +1,12 @@
-<h1>Stupid Coaching</h1>
 <div class="question-container">
   <h5>
-    <%= params[:question]%>
+    <%= @question%>
   </h5>
   <p><em>-You</em></p>
 </div>
 <hr>
-<%  question = params[:question]%>
-<% work='i am going to work' %>
-<% other_answer='other anwser' %>
-<% great='Great!' %>
 <div class="answer-container">
-  <% if question.downcase  == work %>
-    <h5>
-      <%= great %>
-    </h5>
-  <% elsif question.ends_with?("?") %>
-    <h5>
-      <%="Silly question, get dressed and go to work!"%>
-    </h5>
-  <% else %>
-    <h5>
-      <%= "I don\'t care, get dressed and go to work!" %>
-    </h5>
-  <% end %>
+  <h5> <%= @answer %> </h5>
   <p><em>-Your Coach</em></p>
 </div>
 <br>

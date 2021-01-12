@@ -1,0 +1,30 @@
+$gray: #F4F4F4;
+
+body {
+  background: $gray; // Using this variable
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  margin-bottom: 15px;
+}
+
+.container{
+  margin-top: 55px;
+}
+
+.question-container{
+  border-left: 5px solid #8b8686;
+  padding: 15px 25px;
+  
+}
+
+.answer-container{
+  border-left: 5px solid #8b8686;
+  background-color: rgb(255, 242, 167);
+  padding: 15px 25px;
+}
+
+.link-to-ask a{
+  text-decoration: none;
+}
